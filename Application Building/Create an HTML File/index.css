@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(grnd.jpg);
+    background-color: #fbfbfb;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    gap: 5px;
+    flex-direction: row-reverse;
+}
+.container a{
+    text-decoration: none;
+    color: #fff;
+   
+}
+.container li{
+    list-style-type: none;
+    margin: 10px;
+    background-color: #36363689;
+    padding: 10px;
+    border: 0px solid;
+    color: #fff;
+    border-radius: 5px;
+}
+.pageFront{
+    margin: 20px;
+    padding: 25px;
+}
+.pageFront h2{
+    text-align: center;
+    color: #fff;
+}
+.pageFront p{
+    
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 0.116);
+    padding: 20px;
+    border: 0px solid;
+    color: rgba(255, 255, 255, 0.514);
+    border-radius: 5px;
+}
+
