@@ -1,0 +1,17 @@
+*{
+  margin:0;
+  padding:o;
+}
+body{
+  background-image: url(back.jpg);
+    background-color: #fbfbfb;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.result{
+  display: flex-column;
+  padding:20px;
+  text-align: center;
+}
